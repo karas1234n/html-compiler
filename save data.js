@@ -1,21 +1,21 @@
 function SaveCode()
 {
-    localStorage.setItem('Code',editor.innerText);
+    localStorage.setItem('Code',html_editor.innerText);
 }
-editor.innerText = localStorage.Code;
+html_editor.innerText = localStorage.Code;
 function showCodeData()
 {
     return localStorage.Code;
 }
 function refreshCodeData()
 {
-    localStorage.Code = editor.innerText;
-    editor.innerText = showCodeData();
+    localStorage.Code = html_editor.innerText;
+    html_editor.innerText = showCodeData();
 }
-editor.onkeydown = () => {
+html_editor.onkeydown = () => {
     SaveCode();
 }
-if(localStorage.Code == editor.innerText)
+if(localStorage.Code == html_editor.innerText)
 {
     refreshCodeData();
 }
