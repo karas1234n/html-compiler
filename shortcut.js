@@ -5,7 +5,7 @@ let Turn_Show_Double = true;
 html_editor.addEventListener('keydown',function(command){
 if(command.ctrlKey &&  command.key === '/')
     {
-        editor.innerText += '<!---->';
+        html_editor.innerText += '<!---->';
 }
 });
 
@@ -13,7 +13,7 @@ html_editor.addEventListener('keydown',function(new_html){
     if(new_html.ctrlKey && new_html.shiftKey && new_html.key === '!')
     {
         new_html.preventDefault();
-        editor.innerText += 
+        html_editor.innerText += 
         `<!DOCTYPE html>
         <html lang="en">
         <head>
@@ -62,9 +62,9 @@ window.addEventListener('keydown',function(Double){
     let The_Attributes_That_Inside_Double_The_Code_From_Code_Category_To_Double = document.getElementById('The_Attributes_That_Inside_Double_The_Code_From_Code_Category_To_Double');
     for(let DoubleConut = 1;DoubleConut < +Double_The_Code_From_Code_Category_To_Double.value;DoubleConut++)
     {
-        editor.innerText += `<${Code_Category_To_Double.value} ${The_Attributes_That_Inside_Double_The_Code_From_Code_Category_To_Double.value}>${The_Text_That_Inside_Double_The_Code_From_Code_Category_To_Double.value}</${Code_Category_To_Double.value}>`;
+        html_editor.innerText += `<${Code_Category_To_Double.value} ${The_Attributes_That_Inside_Double_The_Code_From_Code_Category_To_Double.value}>${The_Text_That_Inside_Double_The_Code_From_Code_Category_To_Double.value}</${Code_Category_To_Double.value}>`;
         refreshCodeData();
-        editor.innerText = showCodeData();
+        html_editor.innerText = showCodeData();
     }
     Double_div.style.display = 'none';
         }
