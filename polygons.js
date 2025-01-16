@@ -40,7 +40,7 @@ chat.onclick = () =>
 // Eighth : Download Files
 
 download_file_option.onclick = () => {
-    let download_file = new Blob([html_editor.innerText], {type:'text/html'});
+    let download_file = new Blob([editor.innerText], {type:'text/html'});
     let download_file_url = URL.createObjectURL(download_file);
     let download_file_link = document.getElementById('download_file_link');
     download_file_link.href = download_file_url;

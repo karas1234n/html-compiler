@@ -136,6 +136,17 @@ button{
 }
 #code > p{
     outline: none;
+    border:#222 solid 5px;
+    height:90%;
+    position: relative;
+    bottom: 0%;
+}
+#code > #options > button{
+all: unset;
+outline: none;
+background-color: #333;
+padding: 10px;
+margin: -5px;
 }
 /* Output Div */
 #output{
