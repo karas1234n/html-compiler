@@ -1,0 +1,199 @@
+/* Small Phone */
+@media (max-width:600px)
+{
+    /* Tools Div */
+    #tools{
+        padding: 0px;
+        text-align: start;
+    }
+    #tools > #tools_inputs_search > input:last-child{
+        display: block;
+        margin:85px 165px;
+        position: absolute;
+        top: 0%;
+    }
+    /* Code Div */
+    #code{
+        max-height: 70vh;
+    }
+    /* Output Div */
+    #output{
+        max-height: 70vh;
+    }
+    /* Polygons Div */
+    #polygons{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        height: 52%;
+    }
+    /* Login Div */
+    #login{
+        position: absolute;
+        right: 7.5%;
+        height: 12.5%;
+    }
+    #login > p {
+        position: relative;
+        top: 20%;
+        left: 5%;    
+    }
+    #login > label{
+        display: inline-block;
+        position: absolute;
+        padding: 5px;
+        bottom: 5%;
+        left: 30%;
+    }
+}
+/* Large phone */
+@media (min-width:600px) and (max-width:768px)
+{
+    /* Tools Div */
+    #tools{
+        padding: 5px;
+        text-align: start;
+    }
+    #tools > #tools_inputs_search > input:last-child{
+        display: block;
+        margin:90px 165px;
+        position: absolute;
+        top: 0%; 
+    }
+    /* Code Div */
+    #code{
+        max-height: 70vh;
+    }   
+    /* Output Div */
+    #output{
+        max-height: 70vh;
+    }
+    /* Polygons Div */
+    #polygons{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        height:52%;
+    }
+        /* Login Div */
+        #login{
+            position: absolute;
+            right: 20%;
+            height: 12.5%;
+        }
+        #login > p {
+            position: relative;
+            top: 20%;
+            left: 5%;    
+        }
+        #login > label{
+            display: inline-block;
+            position: absolute;
+            padding: 5px;
+            bottom: 5%;
+            left: 30%;
+        }
+}
+/* Random Size (Unknown) */
+@media (min-width:664px)  and (max-width:767px){
+    /* Tools Div */
+    #tools > #tools_inputs_search > input:last-child{
+        display: block;
+        margin:89px -488.5px;
+        position: absolute;
+        top: 0%; 
+        border-left: #222 solid 5px;
+    } 
+    /* Output Div */
+    #tools{
+        padding: 5px;
+        height: 150px;
+        text-align: start;
+    }
+    /* Polygons Div */
+    #polygons{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        height:52%;
+    }
+    /* Login Div */
+    #login{
+        position: relative;
+        left: 80%;
+        bottom: 0%;
+        height: 45%;
+    }
+    #login > p {
+        position: relative;
+        top: 20%;
+        left: 5%;    
+    }
+    #login > label{
+        display: inline-block;
+        position: absolute;
+        padding: 2.5px;
+        bottom: 5%;
+        left: 30%;
+    }
+}
+/* Tablet */
+@media (min-width:768px) and (max-width:992px)
+{
+    /* Tools Div */
+    #tools{
+        padding: 5px;
+        height: 150px;
+        text-align: start;
+    }
+    #tools > #tools_inputs_search > input:last-child{
+        display: block;
+        margin:62.5px 165px;
+        position: absolute;
+        top: 0%; 
+        width: 100px;
+    }
+    /* Code Div */
+    #code{
+        max-height: 72.5vh;
+    }   
+    /* Output Div */
+    #output{
+        max-height: 72.5vh;
+    }
+    /* Polygons Div */
+    #polygons{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        height:52%;
+    }
+    /* Login Div */
+    #login{
+    position: relative;
+    right: -2%;
+    bottom: -19%;
+    height: 46%;
+    }
+    #login > p {
+    position: relative;
+    top: 20%;
+    left: 5%;    
+    }
+    #login > label{
+    display: inline-block;
+    position: absolute;
+    padding: 2.5px;
+    bottom: 5%;
+    left: 30%;
+    }
+}
+@media (min-width:995px){
+    /* Polygons Div */
+    #polygons{
+      position: absolute;
+      top: 12.5%;
+      left: 25%;
+      height:52%;
+  }  
+}

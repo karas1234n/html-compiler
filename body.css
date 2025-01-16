@@ -1,0 +1,196 @@
+/* Body */
+body{
+    margin: 0px;
+    background-color: #181818;
+}
+/*ALL ELEMENT*/
+*{
+    font-family:system-ui;
+    color: #fff;
+    outline: none;
+    margin: 0;
+}
+/* All Element From Name */
+input{
+    border: none;
+    outline: none;
+    caret-color: #333;
+    color: #333;
+}
+a{
+    background-color: inherit;
+    text-decoration: none;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+/* Tools Div */
+#tools{
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    border-bottom: #222 solid 5px;
+    text-transform: capitalize;
+}
+#tools > div{
+    display: inline-block;
+    border-left: #222 solid 5px;
+}
+#tools > #tools_buttons > button{
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+}
+#tools #tools_buttons > button > img{
+    max-width:25px;
+    max-height:25px;
+    display: block;
+}
+#tools > #tools_buttons > button > img[alt="delete"]
+{
+    max-width: 50px;
+    max-height: 50px;
+}
+#tools > #tools_inputs_senior > input{
+    display: block;
+    margin:5px 0px;
+}
+#tools > #tools_inputs_senior > button{
+    color: #333;
+}
+#tools > #tools_inputs_search > input{
+    display: block;
+    margin:5px 0px; 
+}
+#tools > #tools_inputs_search > input:last-child{
+    display: block;
+    margin:30px 165px;
+    position: absolute;
+    top: 0%; 
+}
+#login{
+    position: absolute;
+    right: 1%;
+    height: 12.5%;
+}
+#login > p {
+    position: relative;
+    top: 20%;
+    left: 5%;    
+}
+#login > label{
+    display: inline-block;
+    position: absolute;
+    padding: 5px;
+    bottom: 5%;
+    left: 30%;
+}
+#login > label:hover{
+    border: 2.5px white dotted;
+}
+/* Polygons Div */
+#polygons{
+    position: absolute;
+    text-align: start;
+    align-content: space-evenly;
+    background-color: #222;
+    border-radius: 25px;
+    font-size: 14px;
+    display: flex;
+    height: 50%;
+    left: 30%;
+    top: 12.5%;
+    z-index: 1;
+}
+#polygons > ul{
+    position:relative;
+    list-style:none;
+    right: 15px;
+}
+#polygons > ul > #charcaters > li{
+    margin: 10px;
+}
+#polygons > ul > #charcaters > li:hover{
+    font-size: 20px;
+}
+/* Contianer For Code Div & Output Div */
+#contianer_for_code_and_output{
+    border: #222 solid 2.5px;
+    display: flex;
+    align-items: center;
+}
+#contianer_for_code_and_output > div{
+    display: inline-block;
+}
+/* Code Div */
+#code{
+    margin: 10px;
+    background-color: #333;
+    max-height: 75vh;
+    width: 50%;
+    height: 75vh;
+    overflow: auto;
+    text-transform:none;
+}
+#code > p{
+    outline: none;
+}
+/* Output Div */
+#output{
+    background-color: white;
+    font-family: system;
+    color:black;
+    width: 50%;
+    height: 75vh;
+    max-height: 75vh;
+    overflow: auto;
+    margin: 0px 10px;
+}
+#output > *{
+    font-family: system;
+    color:black;
+}
+#Output_Tools{
+width: 100%;
+height: 10%;
+position: absolute;
+bottom: 1%;
+}
+#Output_Tools > * {
+    margin: 5px;
+    position: relative;
+    right: 10%;
+    background-color: orange;
+    border-radius: 100% 100%;
+    width: calc(100% / 20);
+    height: calc(100%);
+}
+#Output_Tools > * > * {
+    position: relative;
+    left: -30%;
+    margin:-60%;
+    width: 100%;
+    rotate: 180deg;
+}
+/* Js Elements */
+#Double{
+    text-align: center;
+    margin:-50vh 35vw;
+    height:25vh;
+    width:25vw;
+    display: flex;
+    align-content: center;
+}
+#Double > *{
+    display: block;
+    color: black;
+    max-width: 60px;
+    max-height: 60px;
+    text-align: center;
+}
+#Double > button {
+    border-radius: 0%;
+    max-height: 62px;
+}

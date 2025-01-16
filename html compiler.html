@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Title -->
+        <title>Html Compiler</title>
+        <link rel="website icon" href="logo.png">
+        <!-- Meta -->
+        <meta charset="UTF-8">
+        <meta name="description" content="Html Compiler It Is A Perfect Compiler For Bigners And Teatchars Because Easy And Have A Lot OF Tools.It A Open Source Compiler Means Any Person Can Edit In A Compiler And Buy.">
+        <meta name="keywords" content="html compiler">
+        <!-- Links -->
+         <!-- Body Link For All Element In Body -->
+        <link rel="stylesheet" href="body.css">
+        <!-- Window Link For All Things In Search Engine Like scroll -->   
+        <link rel="stylesheet" href="window.css">
+        <!-- Media To Make Resposive Website -->
+         <link rel="stylesheet" href="media.css">
+    </head>
+    <body>
+        <!-- Contianer || Html Code-->
+        <div id="contianer">
+            <div id="tools">
+                <div id="tools_buttons">
+                    <!-- To Run Code -->
+                    <button id="run"><img src="run.png" alt="run" title="run">run</button>
+                    <!-- Auto Save Button To Run Code Without Click At Run Button -->
+                    <button id="auto_save"><img src="auto save.png" alt="auto save" title="auto save">auto <br> save</button>
+                    <!-- New Button Or New Plugin To Use Alot Of Tools-->
+                    <button id="new_polygon"><img src="new polygon.png" alt="new Polygon" title="new polygon" style="max-width: 40px; max-height: 40px;">new <br> plugin</button>
+                    <div id="polygons" style="display: none;">
+                        <ul>
+                            <div id="charcaters">
+                            <li id="chat">chat</li>
+                            <li id="challenge">challenge</li>
+                            <li id="additional_stuff">additional stuff</li>
+                            <li id="news">news</li>
+                            <li id="create_add-on_without_downloading">create add-on without downloading</li>
+                            <li id="download_version">download version</li>
+                            <li id="download_file"><a id="download_file_link">download file</a></li>
+                            <li id="documentation">documentation</li>
+                            <li id="about">about</li>
+                            <li id="code_option">code</li>
+                            </div>
+                        </ul>
+                    </div>
+                    <!-- Setting Button To Edit All Things In Html Compiler -->
+                     <button id="Setting"><img src="setting.png" alt="setting" title="setting" style="max-width: 40px; max-height: 40px;"> setting</button>
+                    <!-- Delete Data To Clear All Code From Code Div And Local Storage -->
+                    <button id="clear code"><img src="delete.svg" alt="delete" title="delete" width="100" height="100">clear code</button>                
+                </div>
+                <div id="tools_inputs_senior">
+                    <input type="text" name="new" id="new_element" placeholder="element">
+                    <input type="text" name="process" id="process_element" placeholder="process">
+                    <input type="text" name="type" id="type_element" placeholder="type" style="display: inline-block;">
+                    <button>New</button>
+                </div>
+                <div id="tools_inputs_search">
+                    <input type="text" name="search_in_html" id="search_in_html" placeholder="search in html">
+                    <input type="text" name="search_in_css" id="search_in_css" placeholder="search in css">
+                    <input type="text" name="search_in_js" id="search_in_js" placeholder="search in js">
+                    <input type="text" name="search_in_all" id="search_in_all" placeholder="search in all">
+                </div>
+                <div id="login">
+                    <p>User Unknown</p>
+                    <label>login</label>
+                </div>          
+        </div>
+        <div id="contianer_for_code_and_output">
+            <div id="code">
+                <!--Notes: User Write In A P Element How? Because Found Contenteditable Attribute-->
+                <p contenteditable="true" id="editor">
+                    
+                </p>
+            </div>
+            <div id="output">
+    
+            </div>
+        </div>
+        <div id="Output_Tools">
+            <button id="select_output_tool">
+                <img src="select.svg" alt="select">
+            </button>
+        </div>
+     </div>
+    <!-- Scripts -->
+    <!-- Run Code File To Run Code Button & Auto Save Button -->
+    <script src="run code.js"></script>
+    <!-- Polygons File To Polgons Div -->
+    <script src="polygons.js"></script>
+    <!-- Shortcut File To Make Alot Of Shortcuts -->
+    <script src="shortcut.js"></script>
+    <!-- Save Data File To Save Data From LocalStorage & SessionStorage-->
+    <script src="save data.js"></script>
+</body>
+</html>
